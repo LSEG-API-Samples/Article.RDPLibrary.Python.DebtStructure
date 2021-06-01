@@ -4,6 +4,8 @@ Many times when one is looking to analyze the Debt Structure of an issuer within
 
 With this article we would like to bring this kind of analysis to life through the use of the Refinitiv Data Platform Library and the Eikon Data API. We will go through some simple steps to search for all the bonds for a given issuer, look at some of the most relevant fields for the active bonds, and we will standardize the currency so we can look at the total value of the obligations in a single currency. This is done with the intent of explaining how to use the Search API functionality, how we can organize the properties/fields we're interested in, how to implement FX conversion from the currency of issue to a chosen FX snapshot and then ultimately look at the overall obligations by subsidiary but also as a whole.
 
+Refer to the [Debt Structure Article](https://developers.refinitiv.com/en/article-catalog/article/debt-structure-analysis-on-an-organizational-level) defined within the Refinitiv Developer Community for more details.
+
 ## <a id="disclaimer"></a>Disclaimer
 The source code presented in this project has been written by Refinitiv only for the purpose of illustrating the concepts of creating example scenarios using the Refinitiv Data Platform Library for Python.
 
